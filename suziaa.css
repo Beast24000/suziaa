@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+@media(max-width:768px){
+    .image-grid{
+        flex-direction: column;
+    }
+}
+header{
+    border-bottom: 2px solid black;
+    height: 120px;
+    display: flex;
+    /justify-content: space-between;
+    text-align: center;
+}
+header img{
+    max-width: 80px;
+    margin: 20px;
+    border-radius: 50%;
+}
+h1{
+  
+}
+main{
+    display: flexbox;
+    width: 100vw;
+   
+    height: 100vh;
+}
+main img{
+    width: 50%;
+}
+.image-grid {
+    display: flex;
+    margin-top: 10px;
+    gap: 10px;
+  }
+  
+  .image-grid img {
+    width: 100%;
+    height: auto;  
+    margin: 10px;
+    margin-top: 0;
+  }
